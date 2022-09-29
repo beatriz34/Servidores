@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: SFProText-Medium, Helvetica, Arial, sans-serif;;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.calculate{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(247, 0, 173);
+}
+table td{
+    display: inline-block;
+}
+.bt{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(153, 0, 107);
+    color: white;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+}
+.bt:hover{
+    background-color: rgba(158, 1, 111, 0.753);
+}
+.st{  /* style para os botões de AC e = */
+    width: 106px;
+    background-color: rgb(71, 0, 50);
+}
+.st:hover{
+    background-color: rgb(112, 1, 62);
+}
+
+.op{ /* operações */
+    background-color: rgb(88, 1, 74);
+}
+.op:hover{
+    background-color: rgb(75, 1, 62);
+}
+.result{
+    height: 100px;
+    color: white;
+    text-align: right;
+    font-size: 25px;
+    word-wrap: break-word;
+    border-bottom: 3px solid rgb(189, 19, 146) ;
+    padding-top: 9px;
+    padding-right: 9px;
+    background-color: rgba(255, 111, 212, 0.904);
+    margin: 7px;
+  border-radius: 7px ;
+}
